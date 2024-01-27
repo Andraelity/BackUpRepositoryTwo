@@ -47,7 +47,8 @@ namespace StickerName_Namespace
 	{
 
 		public static string[] StickerNameStringArray;
-		public static string[] ShaderPathNameStringArray;
+		public static string[] ShaderPathNameStringArrayOne;
+		public static string[] ShaderPathNameStringArrayTwo;
 
 
 
@@ -114,47 +115,108 @@ namespace StickerName_Namespace
 		public static void SetShaderPathNameStringArray()
 		{
 			
-
-			ShaderPathNameStringArray = new string[]
+			ShaderPathNameStringArrayOne = new string[]
 			{
-				"Shaders2D/BallOfFire",
-				"Shaders2D/BookShelf",
-				"Shaders2D/BubblingPuls",
-				"Shaders2D/Waves",
-				"Shaders2D/PlasmaFlower",
-				"Shaders2D/PlaneShaderWork",
-				"Shaders2D/MandelFire",
-				"Shaders2D/FireAndWater",
-				"Shaders2D/Noise2D",
-				"Shaders2D/PlanetSpace",
-				"Shaders2D/Star",
-				"Shaders2D/CirclesDisco",
-				"Shaders2D/PaintTexture",
-				"Shaders2D/FractalPyramid",
-				"Shaders2D/Bubble",
-				"Shaders2D/StarFractal",
-				"Shaders2D/WetNeural",
-				"Shaders2D/PulsatingPink",
-				"Shaders2D/LaserBeam",
-				"Shaders2D/Clouds",
-				"Shaders2D/GlowingMarbling",
-				"Shaders2D/PortalGreen",
-				"Shaders2D/SimplicityGalaxy",
-				"Shaders2D/DigitalBrain",
-				"Shaders2D/SpiralRainbow",
-				"Shaders2D/FurSphere",
-				"Shaders2D/GlowingBlobs",
-				"Shaders2D/XBall",
-				"Shaders2D/WarpSpeed",
-				"Shaders2D/70SPaint"
+				"ShaderBloom/ContainerShader-BallOfFire",
+				"ShaderBloom/ContainerShader-BookShelf",
+				"ShaderBloom/ContainerShader-BubblingPuls",
+				"ShaderBloom/ContainerShader-Waves",
+				"ShaderBloom/ContainerShader-PlasmaFlower",
+				"ShaderBloom/ContainerShader-MandelFire",
+				"ShaderBloom/ContainerShader-FireAndWater",
+				"ShaderBloom/ContainerShader-Noise2D",
+				"ShaderBloom/ContainerShader-PlanetSpace",
+				"ShaderBloom/ContainerShader-Star",
+				"ShaderBloom/ContainerShader-CirclesDisco",
+				"ShaderBloom/ContainerShader-PaintTexture",
+				"ShaderBloom/ContainerShader-FractalPyramid",
+				"ShaderBloom/ContainerShader-Bubble",
+				"ShaderBloom/ContainerShader-StarFractal",
+				"ShaderBloom/ContainerShader-WetNeural",
+				"ShaderBloom/ContainerShader-PulsatingPink",
+				"ShaderBloom/ContainerShader-LaserBeam",
+				"ShaderBloom/ContainerShader-Clouds",
+				"ShaderBloom/ContainerShader-GlowingMarbling",
+				"ShaderBloom/ContainerShader-PortalGreen",
+				"ShaderBloom/ContainerShader-SimplicityGalaxy",
+				"ShaderBloom/ContainerShader-DigitalBrain",
+				"ShaderBloom/ContainerShader-SpiralRainbow",
+				"ShaderBloom/ContainerShader-FurSphere",
+				"ShaderBloom/ContainerShader-GlowingBlobs",
+				"ShaderBloom/ContainerShader-XBall",
+				"ShaderBloom/ContainerShader-WarpSpeed",
+				"ShaderBloom/ContainerShader-70SPaint",
+				"ShaderBloom/ContainerShader-BlueCell",
+				"ShaderBloom/ContainerShader-Lightning",
+				"ShaderBloom/ContainerShader-Chlast",
+				"ShaderBloom/ContainerShader-Interstellar",
+				"ShaderBloom/ContainerShader-Techtacles",
+				"ShaderBloom/ContainerShader-TwoPlanes",
+				"ShaderBloom/ContainerShader-RainbowSpiral",
+				"ShaderBloom/ContainerShader-DarkSpiral",
+				"ShaderBloom/ContainerShader-SimplePlasma",
+				"ShaderBloom/ContainerShader-Thunders",
+				"ShaderBloom/ContainerShader-SpectrumBeam",
+				"ShaderBloom/ContainerShader-PadEmulator",
+				"ShaderBloom/ContainerShader-Dodecahedron",
+				"ShaderBloom/ContainerShader-FractalLight",
+				"ShaderBloom/ContainerShader-GalacticSpiral",
+				"ShaderBloom/ContainerShader-EyeSauron",
+				"ShaderBloom/ContainerShader-Moire",
+				"ShaderBloom/ContainerShader-Flaring",
+				"ShaderBloom/ContainerShader-SpinnerGeometry",
+				"ShaderBloom/ContainerShader-CasinoStyle",
+				"ShaderBloom/ContainerShader-PulsingMaldelbox"
+
 			};
 
 		}
 
 		public static string[] GetShaderPathNameStringArray()
 		{
-			return ShaderPathNameStringArray;
+			return ShaderPathNameStringArrayOne;
 		}
+
+
+
+
+
+		public static void SetShaderPathNameStringArrayTwo()
+		{
+			
+			ShaderPathNameStringArrayTwo = new string[]
+			{
+
+				"ShaderBloom/ContainerShader-Gool",
+				"ShaderBloom/ContainerShader-SpheresReflect",
+				"ShaderBloom/ContainerShader-Blocks",
+				"ShaderBloom/ContainerShader-FractalSymmetry",
+				"ShaderBloom/ContainerShader-RainbowSpaguetti",
+				"ShaderBloom/ContainerShader-Satori",
+				"ShaderBloom/ContainerShader-Truchet",
+				"ShaderBloom/ContainerShader-HSL_COLOR",
+				"ShaderBloom/ContainerShader-GoldDragon",
+				"ShaderBloom/ContainerShader-ShaderforthLace",
+				"ShaderBloom/ContainerShader-LogSpiral",
+				"ShaderBloom/ContainerShader-ChessHipno",
+				"ShaderBloom/ContainerShader-MusicBox",
+				"ShaderBloom/ContainerShader-PersianCarpet",
+				"ShaderBloom/ContainerShader-PulseGeometry",
+				"ShaderBloom/ContainerShader-Shiny",
+				"ShaderBloom/ContainerShader-Metaballs"
+
+
+			};
+
+		}
+
+		public static string[] GetShaderPathNameStringArrayTwo()
+		{
+			return ShaderPathNameStringArrayTwo;
+		}
+
+
+
 
 	}
 

@@ -140,7 +140,8 @@ float4 fragColor = float4(func(p)*max(1.-d*d*d, 0.), 1.0);
 
 ///////////////////////↓↓↓↓↓↓↓↓↓// THIS IS THE LAST STEP ON THE PROCESS
 ///////////////////////↓↓↓↓↓↓↓↓↓// THIS IS THE LAST STEP ON THE PROCESS
-float4 colBackground = fragColor;
+float4 colSmoothed = smoothstep(0, 1, fragColor);
+float4 colBackground = colSmoothed;
 // float4 colBackground = 0.0;
 bool StickerSprite = (_OverlaySelection == 0)?true:false;
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

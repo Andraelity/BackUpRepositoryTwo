@@ -126,13 +126,13 @@
 
 			    UNITY_SETUP_INSTANCE_ID(i);
 			    
-		    	float aaSmoothing = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _AASmoothing);
-			    fixed4 fillColor = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _FillColor);
-			   	float _rangeZero_Ten = UNITY_ACCESS_INSTANCED_PROP(CommonProps,_rangeZero_Ten);
-				float _rangeSOne_One = UNITY_ACCESS_INSTANCED_PROP(CommonProps,_rangeSOne_One);
-			    float _rangeZoro_OneH = UNITY_ACCESS_INSTANCED_PROP(CommonProps,_rangeZoro_OneH);
-                float _mousePosition_x = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _mousePosition_x);
-                float _mousePosition_y = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _mousePosition_y);
+		    	float aaSmoothing = 0.0;
+			    fixed4 fillColor = 0.0;
+			   	float _rangeZero_Ten = 0.0;
+				float _rangeSOne_One = 0.0;
+			    float _rangeZoro_OneH = 0.0;
+                float _mousePosition_x = 0.0;
+                float _mousePosition_y = 0.0;
 
                 float2 mouseCoordinate = mouseCoordinateFunc(_mousePosition_x, _mousePosition_y);
                 float2 mouseCoordinateScale = (mouseCoordinate + 1.0)/ float2(2.0,2.0);

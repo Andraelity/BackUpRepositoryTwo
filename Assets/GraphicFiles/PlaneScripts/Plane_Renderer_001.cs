@@ -218,14 +218,25 @@ public class Plane_Renderer_001 : MonoBehaviour
     	currentInstanceID = gameObject.GetInstanceID();
 
 
-    	pathShader_string = "ShaderBloom/ContainerShader-StarFractal";
+    	// pathShader_string =  "ShaderBloom/ContainerShader-BlueCell";
+    	pathShader_string2 = "ShaderBloom/ContainerShader-BlueCell";
 
 
     	//////////////////////////// CHANGE THIS TO FALSE TO SET RANDOM BACKGROUND ON STICKERS////////////// 
-    	if(UsePathShader_bool == true)
+    	if(UsePathShader_bool == false)
     	{
+
+
 		 	pathShader_string = GetRandomStringShaderPath(currentInstanceID);
-			pathShader_string2 = GetRandomStringShaderPath(currentInstanceID + 10);
+			pathShader_string2 = GetRandomStringShaderPathTwo(currentInstanceID + 10);
+    		// pathShader_string =  "ShaderBloom/ContainerShader-FractalLight";
+	    	// pathShader_string2 = "ShaderBloom/ContainerShader-FractalLight";
+
+    		TextureChannel0 = "GeometryImage-25";
+			TextureChannel1 = "GeometryImage-26";
+			TextureChannel2 = "GeometryImage-27";
+			TextureChannel3 = "GeometryImage-28";
+
 
     	}						
 
@@ -254,6 +265,7 @@ public class Plane_Renderer_001 : MonoBehaviour
 		float _OverlaySelectionFloat = (OverlaySelection)?1.0f:0.0f;
 
 		material.SetFloat(stringOverlaySelection, _OverlaySelectionFloat);
+		material2.SetFloat(stringOverlaySelection, _OverlaySelectionFloat);
 
 
         TextureToShaderSprite = (Texture2D)Resources.Load("SPRITE/" + TextureSprite);
@@ -311,6 +323,7 @@ public class Plane_Renderer_001 : MonoBehaviour
 
 		// SetInitialValuesRef(ref variableShaderInfo);
     	material.SetFloat(stringGlowFull, (float)((GlowFull)?1.0f:0.0f)); 
+    	material2.SetFloat(stringGlowFull, (float)((GlowFull)?1.0f:0.0f)); 
 
         SetInitialValuesRef(ref variableShaderInfo);
         material = SetMaterialPropertiesSticker(material);
@@ -450,15 +463,33 @@ public class Plane_Renderer_001 : MonoBehaviour
 		StickerNameClass.SetShaderPathNameStringArray();
 		string[]  nameShaderArray = StickerNameClass.GetShaderPathNameStringArray();
 
-		// foreach(string nameShader in nameShaderArray)
-		// {
-		// 	Debug.Log("Name Shader Path == " + nameShader);
-		// }
 
     	int indexNameShaderArray = variableRandom.Next(0, nameShaderArray.Length);
 
     	return nameShaderArray[indexNameShaderArray];
     }
+
+
+    static string GetRandomStringShaderPathTwo(int valueSeed)
+    {
+
+    	System.DateTime valueTime = new System.DateTime();
+
+    	int valueDateint = valueTime.Hour + valueTime.Minute + valueTime.Second;
+    	
+    	System.Random variableRandom = new System.Random(valueDateint + valueSeed);
+
+
+
+		StickerNameClass.SetShaderPathNameStringArrayTwo();
+		string[]  nameShaderArray = StickerNameClass.GetShaderPathNameStringArrayTwo();
+
+
+    	int indexNameShaderArray = variableRandom.Next(0, nameShaderArray.Length);
+
+    	return nameShaderArray[indexNameShaderArray];
+    }
+
 
 
     static Material SetMaterialPropertiesSticker(Material materialObject)
@@ -673,11 +704,11 @@ public class Plane_Renderer_001 : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.L))
 		{
 
-			string pathToShader = GetRandomStringShaderPath(currentInstanceID + 15);
+			// string pathToShader = GetRandomStringShaderPath(currentInstanceID + 15);
 
-			// Shader shaderClouds  = Shader.Find("Shaders2D/CirclesDisco");
-			Shader shaderToModify  = Shader.Find(pathToShader);
-			material.shader = shaderToModify;
+			// // Shader shaderClouds  = Shader.Find("Shaders2D/CirclesDisco");
+			// Shader shaderToModify  = Shader.Find(pathToShader);
+			// material.shader = shaderToModify;
 			renderer.material = material;
 
 		}

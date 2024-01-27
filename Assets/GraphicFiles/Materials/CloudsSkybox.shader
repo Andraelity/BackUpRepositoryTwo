@@ -118,23 +118,20 @@ float fbm(float2 n) {
 
 			    UNITY_SETUP_INSTANCE_ID(PIXEL);
 			    
-		  		float _StickerType = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _StickerType);
-		  		float _MotionState = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _MotionState);
-
-			    float4 _BorderColor = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _BorderColor);
-				float _BorderSizeOne = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _BorderSizeOne);
-				float _BorderSizeTwo = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _BorderSizeTwo);
-				float _BorderBlurriness = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _BorderBlurriness);
-
-			    float _RangeSOne_One0 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSOne_One0);
-				float _RangeSOne_One1 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSOne_One1);
-			 	float _RangeSOne_One2 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSOne_One2);
-			 	float _RangeSOne_One3 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSOne_One3);
-
-   		       	float _RangeSTen_Ten0 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSTen_Ten0);
-				float _RangeSTen_Ten1 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSTen_Ten1);
-			    float _RangeSTen_Ten2 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSTen_Ten2);
-			    float _RangeSTen_Ten3 = UNITY_ACCESS_INSTANCED_PROP(CommonProps, _RangeSTen_Ten3);
+		  		float _StickerType = 1.0;
+		  		float _MotionState = 1.0;
+			    float4 _BorderColor = 1.0;
+				float _BorderSizeOne = 1.0;
+				float _BorderSizeTwo = 1.0;
+				float _BorderBlurriness = 1.0;
+			    float _RangeSOne_One0 = 1.0;
+				float _RangeSOne_One1 = 1.0;
+			 	float _RangeSOne_One2 = 1.0;
+			 	float _RangeSOne_One3 = 1.0;
+   		       	float _RangeSTen_Ten0 = 1.0;
+				float _RangeSTen_Ten1 = 1.0;
+			    float _RangeSTen_Ten2 = 1.0;
+			    float _RangeSTen_Ten3 = 1.0;
 
 
                 float2 coordinate =  PIXEL.uv;

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.6734285, g: 0.84721833, b: 0.98004836, a: 1}
+  m_IndirectSpecularColor: {r: 0.64461666, g: 0.83641386, b: 0.9951479, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -30057,7 +30057,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 404f9e721fc13ad49b7c9f90b193582b, type: 2}
+  - {fileID: 2100000, guid: b4bcf7229e780e240b3f342d9309aa0e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -30096,7 +30096,7 @@ Transform:
   m_GameObject: {fileID: 1886743040}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 74.4, y: 13.06, z: 79.17}
+  m_LocalPosition: {x: 52.5, y: 11.27, z: 37.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -30115,8 +30115,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf26b6b7d0bbd0644a092737bd658a8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  UsePathShader_bool: 0
-  pathShader_string: Shaders2D/CirclesDisco
+  UsePathShader_bool: 1
+  pathShader_string: ShaderBloom/ContainerShader-Metaballs
   Path_LOADSHADERONRUNTIME: 0
   shaderName_enum: 0
   LOADSHADERONRUNTIME: 0
@@ -30128,17 +30128,17 @@ MonoBehaviour:
   LOADTEXTUREONRUNTIME: 0
   GlowFull: 0
   OverlaySelection: 0
-  EditValueSticker: 0
-  StickerType: 1
+  EditValueSticker: 1
+  StickerType: 27
   BorderColor: {r: 0, g: 1, b: 0, a: 1}
-  MotionState: 1
+  MotionState: 0
   BorderSizeOne: 1
   BorderSizeTwo: 1
   BorderBlurriness: 1
   RangeSOne_One0: 1
   RangeSOne_One1: 1
-  RangeSOne_One2: 1
-  RangeSOne_One3: 1
+  RangeSOne_One2: 0.35
+  RangeSOne_One3: 3
   RangeSTen_Ten0: 1
   RangeSTen_Ten1: 1
   RangeSTen_Ten2: 1
