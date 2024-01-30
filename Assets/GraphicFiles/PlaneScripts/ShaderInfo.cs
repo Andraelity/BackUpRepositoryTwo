@@ -203,7 +203,44 @@ namespace StickerName_Namespace
 				"ShaderBloom/ContainerShader-PersianCarpet",
 				"ShaderBloom/ContainerShader-PulseGeometry",
 				"ShaderBloom/ContainerShader-Shiny",
-				"ShaderBloom/ContainerShader-Metaballs"
+				"ShaderBloom/ContainerShader-Metaballs",
+				"ShaderBloom/ContainerShader-2DVoxel",
+				"ShaderBloom/ContainerShader-StarSwirl",
+				"ShaderBloom/ContainerShader-SpectrumRing",
+				"ShaderBloom/ContainerShader-RaveSpiral",
+				"ShaderBloom/ContainerShader-GlassPolyhedron",
+				"ShaderBloom/ContainerShader-NoiseAnimation",
+				"ShaderBloom/ContainerShader-CellShading",
+				"ShaderBloom/ContainerShader-Topologica",
+				"ShaderBloom/ContainerShader-Watery",
+				"ShaderBloom/ContainerShader-Squiggles",
+				"ShaderBloom/ContainerShader-DaRasterizer",
+				"ShaderBloom/ContainerShader-SphereMeta",
+				"ShaderBloom/ContainerShader-FMS_Cat",
+				"ShaderBloom/ContainerShader-SDFCUBE",
+				"ShaderBloom/ContainerShader-SquareStyle",
+				"ShaderBloom/ContainerShader-ColorWheel",
+				"ShaderBloom/ContainerShader-Hexagons",
+				"ShaderBloom/ContainerShader-InfiniteSpheres",
+				"ShaderBloom/ContainerShader-Toto",
+				"ShaderBloom/ContainerShader-TechnoStyle",
+				"ShaderBloom/ContainerShader-Parametrics",
+				"ShaderBloom/ContainerShader-StarShiny",
+				"ShaderBloom/ContainerShader-PlasmaGlobe",
+				"ShaderBloom/ContainerShader-ReproductionIII",
+				"ShaderBloom/ContainerShader-StarDust",
+				"ShaderBloom/ContainerShader-PolygonsPatterns",
+				"ShaderBloom/ContainerShader-ToonSmile",
+				"ShaderBloom/ContainerShader-WorleyNoise",
+				"ShaderBloom/ContainerShader-EnergyLife",
+				"ShaderBloom/ContainerShader-WorleyNoiseType",
+				"ShaderBloom/ContainerShader-ColoredBars",
+				"ShaderBloom/ContainerShader-FractalStyle",
+				"ShaderBloom/ContainerShader-Door",
+
+
+
+
 
 
 			};

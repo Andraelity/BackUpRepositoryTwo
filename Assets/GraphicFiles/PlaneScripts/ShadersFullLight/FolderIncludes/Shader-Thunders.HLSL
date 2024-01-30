@@ -180,7 +180,7 @@ fixed4 FRAGMENTSHADER (pixelPoints PIXELSPACE) : SV_Target
 //////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////
 
-float2 uv = coordinate - float2(0, 0.2);
+	float2 uv = coordinate - float2(0, 0.2);
 	float2 p1 = float2(0.1, 0.3),
 		 plast,
 		 p2 = float2(0.9, 0.3);
@@ -224,7 +224,8 @@ float2 uv = coordinate - float2(0, 0.2);
 	fragColor.r *= mind;
 	fragColor.g *= mind;
 
-	
+	fragColor = fragColor;
+	// return 1.0;	
 ///////////////////////↓↓↓↓↓↓↓↓↓// THIS IS THE LAST STEP ON THE PROCESS
 ///////////////////////↓↓↓↓↓↓↓↓↓// THIS IS THE LAST STEP ON THE PROCESS
 float4 outputSmoothed = smoothstep(0.0, 1.0, fragColor);

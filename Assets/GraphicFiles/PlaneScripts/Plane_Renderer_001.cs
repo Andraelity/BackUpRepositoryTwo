@@ -83,7 +83,7 @@ public class Plane_Renderer_001 : MonoBehaviour
 	public string TextureChannel2 = "GeometryImage25";
 	public string TextureChannel3 = "GeometryImage26";
 	
- 	[Header("TEXTURE NAME ")]
+	[Header("Set Active to reload nex TEXTURES at runtime")]
 	public bool LOADTEXTUREONRUNTIME = false;
 
 /////////////////////////////////////////////////////////////////////////////////////////
@@ -255,12 +255,12 @@ public class Plane_Renderer_001 : MonoBehaviour
 
 		// shader = material.shader;
 
-		if (SystemInfo.supportsInstancing)
-		{
-			// material2.enableInstancing = true;
-			// material.enableInstancing = true;
-			// material2.enableInstancing = true;
-		}
+		// if (SystemInfo.supportsInstancing)
+		// {
+		// 	// material2.enableInstancing = true;
+		// 	// material.enableInstancing = true;
+		// 	// material2.enableInstancing = true;
+		// }
 	
 		float _OverlaySelectionFloat = (OverlaySelection)?1.0f:0.0f;
 

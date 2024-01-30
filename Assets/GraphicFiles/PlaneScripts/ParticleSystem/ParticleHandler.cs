@@ -113,6 +113,7 @@ public class ParticleHandler : MonoBehaviour
 	public float RangeSTen_Ten1 = 1f; // [Range(-10f, 10f)]
 	public float RangeSTen_Ten2 = 1f; // [Range(-10f, 10f)]
 	public float RangeSTen_Ten3 = 1f; // [Range(-10f, 10f)]
+
 	/////////////////////////////////STICKER INFORMATION/////////////////////////////////
 
 
@@ -191,10 +192,16 @@ public class ParticleHandler : MonoBehaviour
 
 
 		//////////////////////////// CHANGE THIS TO FALSE TO SET RANDOM BACKGROUND ON STICKERS////////////// 
-		if(UsePathShader_bool == true)
+		if(UsePathShader_bool == false)
 		{
 			pathShader_string = GetRandomStringShaderPath(currentInstanceID);
 			pathShader_string2 = GetRandomStringShaderPath(currentInstanceID + 10);
+
+
+    		TextureChannel0 = "GeometryImage-25";
+			TextureChannel1 = "GeometryImage-26";
+			TextureChannel2 = "GeometryImage-27";
+			TextureChannel3 = "GeometryImage-28";
 
 		}                       
 
@@ -205,12 +212,12 @@ public class ParticleHandler : MonoBehaviour
 		// Debug.Log(material);
 
 
-		if (SystemInfo.supportsInstancing)
-		{
+		// if (SystemInfo.supportsInstancing)
+		// {
 			// material2.enableInstancing = true;
 			// material.enableInstancing = true;
 			// material2.enableInstancing = true;
-		}
+		// }
 
 		material = new Material(Shader.Find(pathShader_string));
 
