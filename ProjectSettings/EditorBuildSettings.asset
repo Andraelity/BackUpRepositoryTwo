@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TranslationPair.unity
+    guid: 026c9bc02fcde1c41938ace75fcd6d0f
+  - enabled: 1
+    path: Assets/Scenes/TranslationList.unity
+    guid: c4a91632da5e1f841974966cfe0d94f0
   m_configObjects: {}

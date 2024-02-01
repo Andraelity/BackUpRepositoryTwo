@@ -12,6 +12,7 @@
 	}
 	SubShader
 	{
+
 		Tags { "RenderType"="Transparent" "Queue" = "Transparent" "DisableBatching" ="true" }
 		LOD 100
 
@@ -69,7 +70,6 @@
             /////////////////////////////////////////////////////////////////////////////////////////////
 
 
-
 float3 ShaderWaves( in float2 coordinate, in float2 uvScale)
 {
 
@@ -109,6 +109,7 @@ float3 ShaderWaves( in float2 coordinate, in float2 uvScale)
 
 }
 
+
 float Segment( in float2 p, in float2 a, in float2 b )
 {
 	float2 pa = p - a;
@@ -147,6 +148,7 @@ float SDFLetter_A(float2 coordinateScale, float2 coordPosition)
 	return SDF;
 }
 
+
             fixed4 frag (pixel PIXEL) : SV_Target
 			{
 				
@@ -184,36 +186,36 @@ float SDFLetter_A(float2 coordinateScale, float2 coordPosition)
 			
 				// border*=zoom;
 				// uv*=zoom;
-				
 
 			    float3 colorShader = ShaderWaves(coordinate, coordinateScale);
 			    
-                // coordinateScale *= float2(4.0, 1.0);
-                // coordinateFull *= float2(4.0, 1.0);
-// 
+				//coordinateScale *= float2(4.0, 1.0);
+				//coordinateFull *= float2(4.0, 1.0);
+ 
 				// float2 p0 = float2(-.4,-.6);
 				// float2 p1 = float2(-0.4, 0.7);
-// 
+ 
 				// float2 p2 = float2(-0.4,0.7);
 				// float2 p3 = float2( 0.4,0.7);
-// 
+ 
 				// float2 p4 = float2(0.4,-0.6);
 				// float2 p5 = float2(0.4, 0.7);
-// 
+ 
 				// float2 p6 = float2(-0.4,-0.1);
 				// float2 p7 = float2(0.4,-0.1);
-// 
-// 
-			    // float d = Segment(  coordinateScale, p0,p1 ); 
-			    // float d2 = Segment( coordinateScale, p2,p3 ); 
-			    // float d3 = Segment( coordinateScale, p4,p5 ); 
-			    // float d4 = Segment( coordinateScale, p6,p7 ); 
-				// 
+ 
+		    	// float d = Segment(  coordinateScale, p0,p1 ); 
+		    	// float d2 = Segment( coordinateScale, p2,p3 ); 
+		    	// float d3 = Segment( coordinateScale, p4,p5 ); 
+		    	// float d4 = Segment( coordinateScale, p6,p7 ); 
+				 
+
                 float2 coordPosition0 = float2(-1.0, 0.0 );
                 float2 coordPosition1 = float2(-0.0, 0.0 );
 
                 float d   = SDFLetter_A(coordinateScale, coordPosition0);
 				float d2  = SDFLetter_A(coordinateScale, coordPosition1);
+			    
 			    d = min(d, d2);
 
    				float4 col = (d < 0.15) ? float4(colorShader, 1.0) : float4(coordinateFull, 0.0, 1.0); //vec3(0.4,0.7,0.85);
