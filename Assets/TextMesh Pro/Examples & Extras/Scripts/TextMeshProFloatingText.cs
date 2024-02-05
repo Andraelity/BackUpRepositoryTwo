@@ -34,11 +34,8 @@ namespace TMPro.Examples
             new WaitForSeconds(0.8f), new WaitForSeconds(0.85f), new WaitForSeconds(0.9f), new WaitForSeconds(0.95f), new WaitForSeconds(1.0f),
         };
 
-
-
         void Awake()
         {
-
             m_transform = transform;
             m_floatingText = new GameObject(this.name + " floating text");
 
@@ -47,9 +44,7 @@ namespace TMPro.Examples
             //m_floatingText_Transform.position = m_transform.position + new Vector3(0, 15f, 0);
 
             m_cameraTransform = Camera.main.transform;
-
         }
-
 
         void Start()
         {

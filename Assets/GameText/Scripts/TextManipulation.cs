@@ -24,6 +24,9 @@ public class TextManipulation : MonoBehaviour
 
     void Update()
     {
+
+        
+
         
         if (Input.GetKeyUp(KeyCode.Return))
         {

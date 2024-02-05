@@ -21,6 +21,7 @@ namespace TMPro.Examples
             for (int i = 0; i < NumberOfNPC; i++)
             {
 
+
                 if (SpawnType == 0)
                 {
                     // TextMesh Pro Implementation
@@ -40,12 +41,11 @@ namespace TMPro.Examples
                     textMeshPro.text = "!";
                     textMeshPro.isTextObjectScaleStatic = IsTextObjectScaleStatic;
 
-                    // Spawn Floating Tex
+                    // Spawn Floating Text
                     floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
                     floatingText_Script.SpawnType = 0;
                     floatingText_Script.IsTextObjectScaleStatic = IsTextObjectScaleStatic;
                 }
-
                 else if (SpawnType == 1)
                 {
                     // TextMesh Implementation
@@ -66,7 +66,6 @@ namespace TMPro.Examples
                     floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
                     floatingText_Script.SpawnType = 1;
                 }
-
                 else if (SpawnType == 2)
                 {
                     // Canvas WorldSpace Camera
@@ -88,8 +87,10 @@ namespace TMPro.Examples
                     // Spawn Floating Text
                     floatingText_Script = go.AddComponent<TextMeshProFloatingText>();
                     floatingText_Script.SpawnType = 0;
-
                 }
+
+
+
             }
         }
     }

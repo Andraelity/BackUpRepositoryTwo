@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TranslationList.unity
     guid: c4a91632da5e1f841974966cfe0d94f0
+  - enabled: 1
+    path: Assets/Scenes/TranslationAppearance.unity
+    guid: f538b14dcb75f83448c939f1b008803d
   m_configObjects: {}

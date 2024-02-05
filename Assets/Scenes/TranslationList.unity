@@ -243,7 +243,7 @@ GameObject:
   - component: {fileID: 89922825}
   - component: {fileID: 89922824}
   m_Layer: 0
-  m_Name: TextOne_2
+  m_Name: TextOne_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -436,7 +436,7 @@ GameObject:
   - component: {fileID: 93026107}
   - component: {fileID: 93026106}
   m_Layer: 0
-  m_Name: PlaneTextTranslationOne_0 (1)
+  m_Name: PlaneTextTranslationOne_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -950,7 +950,7 @@ GameObject:
   - component: {fileID: 300797524}
   - component: {fileID: 300797523}
   m_Layer: 0
-  m_Name: TextTwo_1
+  m_Name: TextTwo_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 323524279}
   - component: {fileID: 323524278}
   m_Layer: 0
-  m_Name: TextTwo_2
+  m_Name: TextTwo_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1511,7 +1511,7 @@ GameObject:
   - component: {fileID: 550253895}
   - component: {fileID: 550253894}
   m_Layer: 0
-  m_Name: PlaneTextTranslationOne_1 (1)
+  m_Name: PlaneTextTranslationOne_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1725,7 +1725,7 @@ GameObject:
   - component: {fileID: 763214322}
   - component: {fileID: 763214321}
   m_Layer: 0
-  m_Name: TextOne_0
+  m_Name: TextOne_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2092,8 +2092,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PRESS ENTER!! ...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
+  m_sharedMaterial: {fileID: -3153518225512293405, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
-  m_HideMobileInput: 0
+  m_HideMobileInput: 1
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -2407,7 +2407,7 @@ GameObject:
   - component: {fileID: 994892428}
   - component: {fileID: 994892427}
   m_Layer: 0
-  m_Name: PlaneTextTranslationTwo_0 (1)
+  m_Name: PlaneTextTranslationTwo_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2707,7 +2707,7 @@ GameObject:
   - component: {fileID: 1042262272}
   - component: {fileID: 1042262271}
   m_Layer: 0
-  m_Name: PlaneTextTranslationTwo_2 (1)
+  m_Name: PlaneTextTranslationTwo_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2814,7 +2814,7 @@ GameObject:
   - component: {fileID: 1152124151}
   - component: {fileID: 1152124150}
   m_Layer: 0
-  m_Name: TextTwo_0
+  m_Name: TextTwo_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3114,7 +3114,7 @@ GameObject:
   - component: {fileID: 1167960186}
   - component: {fileID: 1167960185}
   m_Layer: 0
-  m_Name: TextOne_1
+  m_Name: TextOne_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3307,7 +3307,7 @@ GameObject:
   - component: {fileID: 1180625346}
   - component: {fileID: 1180625345}
   m_Layer: 0
-  m_Name: PlaneTextTranslationOne_2 (1)
+  m_Name: PlaneTextTranslationOne_6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3414,7 +3414,7 @@ GameObject:
   - component: {fileID: 1187454221}
   - component: {fileID: 1187454220}
   m_Layer: 0
-  m_Name: PlaneTextTranslationTwo_1 (1)
+  m_Name: PlaneTextTranslationTwo_5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4518,17 +4518,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1545274586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c155c0d58c4a3a4a8e87f3cd0911c9b, type: 3}
+  m_Script: {fileID: 11500000, guid: b761a277925b3bd46b792ac30c95a129, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextOne_0: {fileID: 1728218452}
   TextOne_1: {fileID: 1992681313}
   TextOne_2: {fileID: 1524252519}
   TextOne_3: {fileID: 1013913624}
+  TextOne_4: {fileID: 763214319}
+  TextOne_5: {fileID: 1167960183}
+  TextOne_6: {fileID: 89922822}
   TextTwo_0: {fileID: 1814047349}
   TextTwo_1: {fileID: 1228050033}
   TextTwo_2: {fileID: 1222230543}
   TextTwo_3: {fileID: 1860556956}
+  TextTwo_4: {fileID: 1152124148}
+  TextTwo_5: {fileID: 300797521}
+  TextTwo_6: {fileID: 323524276}
 --- !u!1 &1728218452
 GameObject:
   m_ObjectHideFlags: 0
@@ -4974,8 +4980,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
+  m_sharedMaterial: {fileID: -3153518225512293405, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -5062,7 +5068,7 @@ GameObject:
   - component: {fileID: 1860556960}
   - component: {fileID: 1860556958}
   m_Layer: 0
-  m_Name: TextOne_3
+  m_Name: TextTwo_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

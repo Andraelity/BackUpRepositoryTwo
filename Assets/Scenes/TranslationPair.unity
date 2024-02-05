@@ -1106,8 +1106,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PRESS ENTER!! ...
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
+  m_sharedMaterial: {fileID: -3153518225512293405, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1273,7 +1273,7 @@ MonoBehaviour:
   m_AsteriskChar: 42
   m_KeyboardType: 0
   m_LineType: 0
-  m_HideMobileInput: 0
+  m_HideMobileInput: 1
   m_HideSoftKeyboard: 0
   m_CharacterValidation: 0
   m_RegexValue: 
@@ -1311,7 +1311,7 @@ MonoBehaviour:
   m_CaretWidth: 1
   m_ReadOnly: 0
   m_RichText: 1
-  m_GlobalFontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_GlobalFontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_OnFocusSelectAll: 1
   m_ResetOnDeActivation: 1
   m_RestoreOriginalTextOnEscape: 1
@@ -2718,7 +2718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1545274586}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c155c0d58c4a3a4a8e87f3cd0911c9b, type: 3}
+  m_Script: {fileID: 11500000, guid: ab3b2486f2a84794baf4dc4ba6bb08a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   TextOne_0: {fileID: 1728218452}
@@ -3174,8 +3174,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\u200B"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
+  m_sharedMaterial: {fileID: -3153518225512293405, guid: d8a36c54ddb8f614f86fcfa5e6b948a7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

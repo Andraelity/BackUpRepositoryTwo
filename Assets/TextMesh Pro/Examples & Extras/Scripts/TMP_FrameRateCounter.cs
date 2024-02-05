@@ -26,7 +26,6 @@ namespace TMPro.Examples
 
         void Awake()
         {
-            
             if (!enabled)
                 return;
 
@@ -64,10 +63,8 @@ namespace TMPro.Examples
 
         void Start()
         {
-
             m_LastInterval = Time.realtimeSinceStartup;
             m_Frames = 0;
-
         }
 
         void Update()
